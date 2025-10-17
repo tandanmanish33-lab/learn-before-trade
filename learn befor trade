@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Color Trading Learning — Guide for Beginners</title>
+  <meta name="description" content="Color Trading Learning Guide — Learn step-by-step trading basics, demo practice, and safe risk management. Educational purpose only.">
+  <style>
+    :root{
+      --bg:#0b0f12;
+      --card:#0f1720;
+      --neon-1:#00d2ff;
+      --neon-2:#00ff9c;
+      --accent:#ffd400;
+      --muted:#bfc7cf;
+      --glass: rgba(255,255,255,0.04);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+      background:
+        radial-gradient(1200px 600px at 10% 10%, rgba(0,210,255,0.06), transparent 8%),
+        radial-gradient(800px 400px at 90% 90%, rgba(0,255,156,0.04), transparent 10%),
+        var(--bg);
+      color:#fff;
+      padding:18px 12px;
+    }
+    .wrap{max-width:800px; margin:0 auto;}
+    .hero{text-align:center; padding:28px 12px;}
+    .logo{
+      width:96px; height:96px; margin:0 auto 10px; border-radius:50%;
+      background:linear-gradient(180deg,#00d2ff,#00ff9c);
+      display:flex; align-items:center; justify-content:center; font-weight:800;
+      color:#111; box-shadow:0 6px 30px rgba(0,0,0,.6);
+      border:6px solid rgba(255,255,255,0.03);
+    }
+    h1{font-size:28px; margin:12px 0 6px; text-shadow:0 6px 24px rgba(0,210,255,0.08);}
+    h1 .highlight{color:var(--accent);}
+    p.lead{color:var(--muted); margin:8px 0 18px; line-height:1.45;}
+    .cta-row{display:flex; gap:12px; justify-content:center; flex-wrap:wrap;}
+    .btn{
+      padding:14px 18px; border-radius:40px; border:0; cursor:pointer;
+      font-weight:700; min-width:200px; transition:transform .12s ease;
+    }
+    .btn:active{transform:translateY(2px)}
+    .btn-primary{
+      background:linear-gradient(90deg,var(--neon-1), var(--neon-2));
+      color:#012; text-transform:uppercase;
+    }
+    .btn-secondary{
+      background:transparent; color:var(--neon-1);
+      border:1px solid rgba(0,210,255,0.14); text-transform:uppercase;
+    }
+    .card{
+      margin:18px 0; padding:16px; border-radius:14px;
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border:1px solid rgba(255,255,255,0.03);
+    }
+    .feature{display:flex; gap:10px; align-items:flex-start;
+      background:linear-gradient(90deg, rgba(0,0,0,0.16), rgba(255,255,255,0.01));
+      padding:12px; border-radius:10px;}
+    .badge{min-width:44px; height:44px; border-radius:10px;
+      background:linear-gradient(90deg,var(--neon-1),var(--neon-2));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:#021;}
+    .feature h4{margin:0 0 4px 0; font-size:15px}
+    .feature p{margin:0;color:var(--muted); font-size:13px}
+    .disclaimer{
+      margin-top:12px; padding:12px; font-size:13px; color:#ffecb3;
+      background:linear-gradient(90deg, rgba(255,212,60,0.06), rgba(255,255,255,0.01));
+      border-radius:10px;
+    }
+    footer{margin:18px 0 40px; text-align:center; color:var(--muted); font-size:13px}
+    a.link{color:var(--neon-1); text-decoration:none;}
+    .consent{display:flex; gap:10px; align-items:center; justify-content:center; margin-top:10px; flex-wrap:wrap}
+    .consent label{font-size:13px; color:var(--muted)}
+    input[type="checkbox"]{width:18px;height:18px}
+    @media(min-width:720px){
+      h1{font-size:34px}
+      .wrap{padding:0 18px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="logo">CT</div>
+      <h1><span class="highlight">Color Trading Learning</span><br>Guide for Beginners</h1>
+      <p class="lead">
+        Learn the fundamentals of color trading — step-by-step lessons, demo practice, and responsible risk awareness.  
+        <strong>For educational purposes only.</strong>
+      </p>
+
+      <div class="cta-row">
+        <button class="btn btn-primary" id="joinBtn">Join Telegram Guide</button>
+        <button class="btn btn-secondary" id="registerBtn">Start Learning</button>
+      </div>
+
+      <div class="card">
+        <div class="feature">
+          <div class="badge">1</div>
+          <div>
+            <h4>Step-by-step Learning</h4>
+            <p>Understand market basics, patterns, and strategies safely.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="badge">2</div>
+          <div>
+            <h4>Practice Mode</h4>
+            <p>Use demo practice sessions to build experience before real trading.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="badge">3</div>
+          <div>
+            <h4>Risk Management</h4>
+            <p>Learn how to control emotions and protect your capital.</p>
+          </div>
+        </div>
+
+        <div class="disclaimer">
+          ⚠️ Disclaimer: This website is only for educational guidance.  
+          We do not guarantee profits or income. Learn responsibly before trading real money.
+        </div>
+
+        <div class="consent">
+          <input id="ack" type="checkbox" />
+          <label for="ack">I understand this is for educational purposes only.</label>
+        </div>
+      </div>
+    </header>
+
+    <section class="card" id="contact">
+      <h2 style="margin:0 0 8px">Join Community</h2>
+      <p style="color:var(--muted)">Get updates, free guides, and support through Telegram.</p>
+      <p><a class="link" href="https://t.me/+8fg-MOp5Ck0wN2Fl" id="tgLink">👉 Join Color Trading Learning Group</a></p>
+      <p style="color:var(--muted); font-size:13px;">We share learning material, strategies, and Q&A sessions for beginners.</p>
+    </section>
+
+    <footer>
+      <div>© 2025 Color Trading Learning — Educational Resource</div>
+      <div style="color:var(--muted)">No income guarantees • Learn responsibly</div>
+    </footer>
+  </div>
+
+  <script>
+    const ack = document.getElementById('ack');
+    const joinBtn = document.getElementById('joinBtn');
+    const regBtn = document.getElementById('registerBtn');
+    const tgLink = document.getElementById('tgLink');
+
+    function requireConsent(e){
+      if(!ack.checked){
+        e.preventDefault();
+        alert('Please confirm: This guide is for educational use only.');
+        return false;
+      }
+      return true;
+    }
+
+    joinBtn.addEventListener('click', e=>{
+      if(!requireConsent(e)) return;
+      window.open('https://t.me/+8fg-MOp5Ck0wN2Fl','_blank');
+    });
+    regBtn.addEventListener('click', e=>{
+      if(!requireConsent(e)) return;
+      window.open('https://t.me/+8fg-MOp5Ck0wN2Fl','_blank');
+    });
+    tgLink.addEventListener('click', e=>{
+      if(!requireConsent(e)) { e.preventDefault(); return; }
+    });
+  </script>
+</body>
+</html>
