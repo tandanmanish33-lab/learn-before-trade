@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn about Color Trading safely. Educational and awareness guide only — no earning or investment promises." />
+  <title>Color Trading Learning Guide</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    p {
+      max-width: 500px;
+      margin: 0 auto 20px;
+      line-height: 1.6;
+      font-size: 1em;
+    }
+    a.button {
+      background-color: #ffffff;
+      color: #2a5298;
+      padding: 12px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    a.button:hover {
+      background-color: #2a5298;
+      color: #fff;
+      border: 2px solid #fff;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <h1>Color Trading Learning Guide</h1>
+  <p>
+    This page is for <strong>educational and awareness purposes only.</strong><br>
+    Learn the basics of color trading safely and responsibly.<br>
+    No earning or investment promises — learn before you trade.
+  </p>
+
+  <a href="https://t.me/+8fg-MOp5Ck0wN2Fl" target="_blank" class="button">Join Telegram for Guidance</a>
+
+  <footer>
+    © 2025 Learn Before Trade | Educational Purpose Only
+  </footer>
+</body>
+</html>
